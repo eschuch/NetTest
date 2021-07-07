@@ -1,0 +1,21 @@
+Este pacote instala a aplicação NetTest v1.0, uma pequena aplicação feita em AutoIt (v3) e com instalador NSIS.
+
+Fiz ela pensando na porcaria da minha 3G, que vive caindo sem avisar, so deixando tudo em timeout.
+
+Assim, a aplicação inicia junto com o logon, ao lado do relógio do Windows, fica verde quando consegue pingar o destino, amarela quando está processando e vermelha quando da time-out.
+
+Nem o projeto NSIS nem o projeto AutoIt tem nada a ver comigo. Sou mero usuário destes programas magníficos.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+O que quero para as próximas versões:
+
+1 - Implementar a área de notificação;
+2 - Gerar gráfico
+3 - Liga para casa e avisa minha esposa que vou chegar atrasado quando estiver preso no transito ou prepara um suco de laranja pela manhã.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Bugs conhecidos:
+Quando a internet está completamente desligada, o programa acusa como UP.
+Aparentemente um BUG no AutoIt, pois o comando ping() não retorna ao ambiente @error nenhum valor no caso das placas de rede estarem desligada. Mas não vou me preocupar com isso. Nem deveria você.
